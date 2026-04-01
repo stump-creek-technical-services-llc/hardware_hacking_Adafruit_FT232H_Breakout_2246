@@ -1,79 +1,43 @@
-# ${DEV_TAG}
+# Adafruit FT232H Breakout 2246
 
-(photos)
+[Adafruit FT232H Breakout - General Purpose USB to GPIO, SPI, I2C - USB C & Stemma QT](https://www.adafruit.com/product/2264)
 
+![board_top.jpg](photos/board_top.jpg)
 
-
-
-
-## Checklist
-
-- [ ] Reference materials
-    - [ ] Manufacturer docs
-    - [ ] Firmware updates
-    - [ ] OpenWRT support
-    - [ ] Pinouts
-- [ ] Factory reset
-- [ ] External documentation
-- [ ] Case opened
-- [ ] Internal documentation
-- [ ] Dumped ROM .reset
-- [ ] Extracted FW parts, inspected
-- [ ] Factory reset with boot
-- [ ] Dumped ROM regular
-- [ ] Booted
-- [ ] Root shell
-- [ ] Pull stats
-    - [ ] `uname -a`
-    - [ ] `busybox --help`
-    - [ ] `cat /proc/mtd`
-
-## Critical Info
-
-(photo)
-
-External label:
-
-```text
-Serial no.: 
-Input Voltage: XX VDC: XX A -@+
-```
+![board_bottom.jpg](photos/board_bottom.jpg)
 
 ## Reference material:
 
-* [Product Link]()
+* [Product Link](https://www.adafruit.com/product/2264)
+* [Board designs](https://learn.adafruit.com/adafruit-ft232h-breakout/downloads)
 * [Firmware update]()
 * [Open firmware]()
-
-## Opening
-
-(Screws?)
+* [OpenOCD support](http://openocd.sourceforge.net/doc/html/Debug-Adapter-Hardware.html)
 
 ## Board
 
-Markings:
-
-```text
-
-```
+Lots of markings. Kinda crowded, actually.
 
 ### Chip
 
-(photo)
+![chip_FTDI_FT232H.jpg](photos/chip_FTDI_FT232H.jpg)
 
-Package
+Package QFN-48
 
 Markings:
 
 ```text
+FTDI
+DFRLHC1
+FT232HQ
+1925-C
 ```
 
-[Datasheet]
+[Datasheet](http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf)
 
 Description (source):
 
 
-
 ## Firmware
 
-## Conclusion: ?
+There is on-chip firmware, but I didn't mess with it. 
